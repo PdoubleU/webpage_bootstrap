@@ -1,0 +1,52 @@
+:root {
+	box-sizing: border-box;
+	font-weight: lighter;
+	line-height: 1.2;
+
+	/* create list of variables with colors:*/
+
+	--basebkg: #005b9a;
+	--btns: #a19d97;
+	--elembkg: #a5e3fc;
+	--basefont: #74c2e1;
+	--altfont: #ffde00;
+	--footfont: #0191c8;
+	--btnsfont: #005b9a;
+}
+body {
+	margin-top: 5rem;
+	background: var(--basebkg);
+	color: var(--basefont);
+}
+.jumbotron {
+	background: var(--basebkg);
+}
+.jumbotron .container hr {
+	background: var(--basefont);
+	border: none;
+	height: 2px;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-brand {
+	color: var(--basebkg);
+}
+.card-title,
+.card-text {
+	color: var(--basebkg);
+}
+figcaption.figure-caption {
+	color: var(--basefont);
+}
+.footer {
+	background: var(--elembkg);
+	color: var(--footfont);
+}
+h6 {
+	font-weight: bold;
+}
+div.card.mod {
+	height: 100%;
+}
